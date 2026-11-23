@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobConnect | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="site-heading">
+                <span class="site-name">JobConnect</span>
+                <span class="divider">|</span>
+                <span class="site-tagline">Find your dream job</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="jobs.html">Jobs &amp; Uploads</a></li>
+                    <li><a href="advice.html">Career Advice</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contact JobConnect Support &amp; Outreach</h1>
+            <p>Please identify whether you are a jobseeker or an employer before submitting your inquiry or document.</p>
+            
+            <form id="contact-form">
+                <label for="user-role-select">I am contacting as a:</label>
+                <select id="user-role-select" required>
+                    <option value="">Select Jobseeker or Employer</option>
+                    <option value="jobseeker">Jobseeker / Student</option>
+                    <option value="employer">Employer / Organization</option>
+                </select>
+
+                <label for="contact-phone">Phone Number:</label>
+                <input type="tel" id="contact-phone" placeholder="+254 712 345 678" required>
+
+                <label for="contact-email">Email Address:</label>
+                <input type="email" id="contact-email" placeholder="you@example.com" required>
+
+                <label for="contact-message">Message / Inquiry Details:</label>
+                <textarea id="contact-message" rows="5" placeholder="Write your message or interview request here..." required></textarea>
+
+                <label for="contact-attachment">Attach Supporting Document (Optional):</label>
+                <input type="file" id="contact-attachment">
+
+                <button type="submit" class="btn">Submit Message</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Direct Channels &amp; Office Location</h2>
+            <ul class="clean-list">
+                <li><strong>Physical Office Location:</strong> <a href="https://maps.google.com/?q=Meru+University+of+Science+and+Technology" target="_blank">Nchiru, Meru County, Kenya (Open in Google Maps)</a></li>
+                <li><strong>Support Desk Phone:</strong> <a href="tel:+254700000000">+254 700 000 000</a></li>
+                <li><strong>Official Email:</strong> <a href="mailto:support@jobconnect.co.ke">support@jobconnect.co.ke</a></li>
+            </ul>
+
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="https://www.google.com/s2/favicons?domain=linkedin.com&sz=32" alt="LinkedIn Favicon" width="20" height="20">
+                        LinkedIn Support
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="https://www.google.com/s2/favicons?domain=x.com&sz=32" alt="X Favicon" width="20" height="20">
+                        X (Twitter) Helpdesk
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 JobConnect | Find your dream job. All rights reserved.</p>
+        <p>Headquarters: <a href="https://maps.google.com/?q=Meru,Kenya" target="_blank">Meru &amp; Embu, Kenya (View on Map)</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
